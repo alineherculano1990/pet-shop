@@ -44,19 +44,75 @@ footer {
 
 main {
     max-width: 800px;
-    height: 450px;
+    min-height: 450px;
     display: inline;
     float: left;
     width: auto;
+    height: auto;
+    padding: 5px 5px;
+}
+
+main article {
+    border: 2px solid  #333333;
+    border-radius: 15px;
+    padding: 25px 15px 5px;
+}
+
+
+main article.small-article {
+    display: inline-block;
+    width: 260px;
+    height: 220px;
+}
+
+main article.large-article {
+    display: inline-block;
+    width: 790px;
+    height: 220px;
+    margin-top: 5px;
+}
+
+main article div.info{
+    align-items: center;
+    display: inline-flex;
+}
+
+main article img {
+    max-width: 100px;
+    max-height: 100px;
+    margin-right: 10px;
+}
+
+main article h2{
+    text-align: center;
+    margin-bottom: 10px;
 }
 
 aside {
-    max-width: 195px;
-    height: 450px;
-    display: inline;
-    float: right;
-    width: auto;
+    max-width: 300px;
+    min-height: 450px;
+    display: inline-grid;
+    width: 100%;
+    height: 100%;
+    padding: 5px 5px;
 }
+aside section {
+    border: 2px solid  #333333;
+    border-radius: 15px;
+    padding: 25px 15px 5px;
+}
+
+aside section h2{
+    text-align: center;
+    margin-bottom: 10px;
+
+}
+
+aside section figure img {
+    max-width: 265px;
+    max-height: 440px;
+}
+
 
 footer {
     text-align: center;
