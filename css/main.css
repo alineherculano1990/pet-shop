@@ -162,7 +162,7 @@ aside section p {
 
 aside section figure img {
     max-width: 265px;
-    max-height: 375px;
+    max-height: 380px;
     border-radius: 8px;
 }
 
@@ -172,4 +172,5 @@ footer {
     margin-top: 5px;
     font-size: 12px;
     font-weight: bold;
+    position: fixed;
 }
