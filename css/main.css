@@ -65,8 +65,21 @@ footer {
     color: white;
     text-align: center;
     padding: 10px 0;
-    max-height: 60px;
+    max-height: 120px;
     height: auto;
+}
+
+nav ul li {
+    display: inline;
+
+}
+
+nav a {
+    color: rgb(201, 201, 201);
+    padding: 0 35px 20px;
+    text-decoration: none;
+    font: 22px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 nav img {
@@ -135,7 +148,7 @@ main article a {
 }
 aside {
     max-width: 300px;
-    min-height: 450px;
+    min-height: 455px;
     display: inline-grid;
     width: 100%;
     height: 100%;
@@ -145,6 +158,9 @@ aside section {
     border: 2px solid  #333333;
     border-radius: 15px;
     padding: 25px 15px 5px;
+    background: transparent url("../img/costumecorgi.png") no-repeat center center fixed;
+    background-size: contain;
+
 }
 
 aside section h2{
@@ -159,12 +175,15 @@ aside section p {
     color: #4b4d50;
     font-size: 14px;
 }
-
-aside section figure img {
+ 
+aside section #image-corgi {
     max-width: 265px;
     max-height: 380px;
+    background: transparent url("../img/costumecorgi.png") no-repeat no-repeat center;
+    background-size: contain;
+    height: 100%;
     border-radius: 8px;
-}
+} 
 
 
 footer {
