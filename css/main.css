@@ -158,9 +158,7 @@ aside section {
     border: 2px solid  #333333;
     border-radius: 15px;
     padding: 25px 15px 5px;
-    background: transparent url("../img/costumecorgi.png") no-repeat center center fixed;
-    background-size: contain;
-
+   
 }
 
 aside section h2{
